@@ -1,0 +1,29 @@
+{
+  "name": "webpack4-multi-theme",
+  "version": "0.0.1",
+  "description": "Try to get themes working with webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./node_modules/webpack/bin/webpack.js --mode development --display-error-details --config webpack-config.js",
+    "build:debug": "node --inspect-brk ./node_modules/webpack/bin/webpack.js  --mode development --display-error-details --config webpack-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james-s-turner/webpack-mult-theme.git"
+  },
+  "author": "James Turner <james.shaw.turner@gmail.com> (http://github.com/james-s-turner)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/james-s-turner/webpack-mult-theme/issues"
+  },
+  "homepage": "https://github.com/james-s-turner/webpack-mult-theme#readme",
+  "dependencies": {
+    "css-loader": "^0.28.11",
+    "mini-css-extract-plugin": "^0.2.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  }
+}
